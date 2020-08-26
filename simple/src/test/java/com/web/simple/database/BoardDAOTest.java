@@ -18,16 +18,16 @@ public class BoardDAOTest {
 	private BoardDAO dao;
 	
 	
-	//@Test
+	@Test
 	public void testCreate() throws Exception{
 		BoardVO board = new BoardVO();
-		board.setTitle("title1");
-		board.setContent("content1");
-		board.setWriter("writer1");
+		board.setTitle("title3");
+		board.setContent("content3");
+		board.setWriter("writer3");
 		dao.create(board);
 	}
 	
-	@Test
+	//@Test
 	public void testRead() throws Exception{
 		System.out.println(dao.read(1).toString());
 	}

@@ -11,7 +11,7 @@ import com.web.simple.domain.BoardVO;
 
 @Repository
 public class BoardDAOImpl implements BoardDAO {
-	@Inject
+      @Inject
 	  private SqlSession session;
 
 	  private static String namespace = "org.simple.mapper.BoardMapper";
