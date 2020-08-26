@@ -48,18 +48,9 @@ public class BoardController {
 	}
 	
     @RequestMapping(value = "/read", method = RequestMethod.GET)
-    public void read(@RequestParam("bno") int bno, Model model) {
-
-    	BoardVO board;
-		try {
-			board = service.read(bno);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			board = null;
-		}
+    public void read(@RequestParam("bno") int bno, Model model) throws Exception {
     	
-        model.addAttribute(board);
+        model.addAttribute(service.read(bno));
     }
 	
     @RequestMapping(value = "/remove", method = RequestMethod.POST)
