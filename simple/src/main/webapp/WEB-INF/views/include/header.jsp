@@ -4,6 +4,7 @@
 <head>
 	<title>Home</title>
 </head>
+<script src="/resources/plugins/js/jQuery-2.1.4.min.js"></script>
 <body>
 <h1>
 	Hello world!  

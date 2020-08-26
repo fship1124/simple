@@ -13,6 +13,7 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 
+<a href="/board/listAll">목록</a>
 <a href="/board/register">등록</a>
 </body>
 </html>
