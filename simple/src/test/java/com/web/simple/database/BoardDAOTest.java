@@ -27,7 +27,7 @@ public class BoardDAOTest {
 		dao.create(board);
 	}
 	
-	//@Test
+	@Test
 	public void testRead() throws Exception{
 		System.out.println(dao.read(1).toString());
 	}
@@ -41,7 +41,7 @@ public class BoardDAOTest {
 		dao.update(board);
 	}
 	
-	@Test
+	//@Test
 	public void testDelete() throws Exception{
 		dao.delete(2);
 	}

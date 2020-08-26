@@ -10,7 +10,7 @@
 		values(#{title}, #{content}, #{writer})
 	</insert>
 	
-	<select id="read" resultType="com.web.simple.domain.BoardVO">
+	<select id="read" resultType="BoardVO">
 	select
 		bno, title, content, writer, regdate, viewcnt
 	from
@@ -27,7 +27,7 @@
 	delete from tbl_board where bno = #{bno}
 	</delete>
 	
-	<select id="listAl" resultType="com.web.simple.domain.BoardVO">
+	<select id="listAl" resultType="BoardVO">
 	<![CDATA[
 	select
 		bno, title, content, writer, regdate, viewcnt

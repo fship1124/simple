@@ -27,6 +27,6 @@
    	    <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"></constructor-arg>
  	</bean>
  	
- 	<context:component-scan base-package="com.web.simple.persistence">
-	</context:component-scan>
+ 	<context:component-scan base-package="com.web.simple.persistence"></context:component-scan>
+ 	<context:component-scan base-package="com.web.simple.service"></context:component-scan>
 </beans>

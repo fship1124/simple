@@ -14,7 +14,7 @@
 	(#{userid}, #{userpw}, #{username}, #{email})
 </insert>
  
-<select id="selectMember" resultType="com.web.simple.domain.MemberVO">
+<select id="selectMember" resultType="MemberVO">
 	select 
 		* 
 	from
@@ -22,7 +22,7 @@
 	where userid = #{userid}
 </select>
   
-<select id="readWidthPw" resultType="com.web.simple.domain.MemberVO">
+<select id="readWidthPw" resultType="MemberVO">
 	select
 		*
 	from
