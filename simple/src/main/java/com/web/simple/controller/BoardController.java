@@ -84,7 +84,7 @@ public class BoardController {
       logger.info("mod post............");
 
       service.modify(board);
-      rttr.addFlashAttribute("msg", "SUCCESS");
+      rttr.addFlashAttribute("msg", "0000");
 
       return "redirect:/board/listAll";
     }
