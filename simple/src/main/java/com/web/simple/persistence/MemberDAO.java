@@ -6,5 +6,9 @@ public interface MemberDAO {
 	
 	public String getTime();
 	
-	public void insertMember(MemberVO vo);
+	public int insertMember(MemberVO vo);
+
+	public MemberVO readMember(String userid) throws Exception;
+
+	public MemberVO readWothPW(String userid, String pw) throws Exception;
 }
