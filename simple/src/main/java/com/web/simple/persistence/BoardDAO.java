@@ -3,6 +3,7 @@ package com.web.simple.persistence;
 import java.util.List;
 
 import com.web.simple.domain.BoardVO;
+import com.web.simple.domain.Criteria;
 
 public interface BoardDAO {
 	
@@ -18,13 +19,13 @@ public interface BoardDAO {
 
 	  public List<BoardVO> listPage(int page) throws Exception;
 
-/*	  public List<BoardVO> listCriteria(Criteria cri) throws Exception;
+	  public List<BoardVO> listCriteria(Criteria cri) throws Exception;
 
 	  public int countPaging(Criteria cri) throws Exception;
 	  
 	  //use for dynamic sql
 	  
-	  public List<BoardVO> listSearch(SearchCriteria cri)throws Exception;
+	  /*public List<BoardVO> listSearch(SearchCriteria cri)throws Exception;
 	  
 	  public int listSearchCount(SearchCriteria cri)throws Exception;*/
 
