@@ -4,6 +4,7 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import com.web.simple.domain.Criteria;
+import com.web.simple.domain.SearchCriteria;
 
 public class PageMaker {
 	 private int totalCount;
@@ -84,7 +85,7 @@ public class PageMaker {
 	  }
 	  
 	  
-/*	  public String makeSearch(int page){
+	  public String makeSearch(int page){
 	    
 	    UriComponents uriComponents =
 	              UriComponentsBuilder.newInstance()
@@ -95,5 +96,5 @@ public class PageMaker {
 	              .build();             
 	    
 	    return uriComponents.toUriString();
-	  } */
+	  }
 }

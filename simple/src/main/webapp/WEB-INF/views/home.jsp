@@ -17,6 +17,7 @@
 <a href="/board/listCri">ListCri</a>
 <a href="/board/listPage">ListPage</a>
 <a href="/board/listPageJS">ListPageJS</a>
+<a href="/searchboard/list">검색</a>
 <a href="/board/register">등록</a>
 </body>
 </html>
