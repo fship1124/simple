@@ -44,8 +44,7 @@
 						<option value="tcw"
 							<c:out value="${cri.searchType eq 'tcw'?'selected':''}"/>>
 							Title OR Content OR Writer</option>
-					</select> 
-					<input type="text" name='keyword' id="keywordInput"
+					</select> <input type="text" name='keyword' id="keywordInput"
 						value='${cri.keyword }'>
 					<button id='searchBtn'>Search</button>
 					<button id='newBtn'>New Board</button>
@@ -129,7 +128,7 @@
 <script>
 	var result = '${msg}';
 
-	if (result == 'SUCCESS') {
+	if (result == '0000') {
 		alert("처리가 완료되었습니다.");
 	}
 </script>
