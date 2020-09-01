@@ -2,9 +2,12 @@ package com.web.simple.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.web.simple.domain.Criteria;
 import com.web.simple.domain.ReplyVO;
 
+@Service
 public class ReplyServiceImpl implements ReplyService {
 
 	@Override
