@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -48,5 +47,18 @@
 <%= str %> <br>
 <%= a %>의 절대값 : <%= abs(a) %><br>
 <%= b %>의 절대값 : <%= abs(b) %><br>
+<br>
+<br>
+<br>
+
+이름 : ${board.title}<br>
+이름 : ${board.content}<br>
+<script type="text/javascript">
+var title1 = "${test}";
+var title = "${board.title}";
+console.log(title);
+console.dir("${board}");
+
+</script>
 </body>
 </html>
